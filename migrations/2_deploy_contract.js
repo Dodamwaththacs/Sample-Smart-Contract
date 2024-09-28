@@ -1,5 +1,5 @@
-const MyContract = artifacts.require("MyContract");
+const StringStorage = artifacts.require("StringStorage");
 
 module.exports = function(deployer) {
-  deployer.deploy(MyContract);
+  deployer.deploy(StringStorage);
 };
